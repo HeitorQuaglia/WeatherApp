@@ -36,7 +36,7 @@
             android:textSize="20sp" />
 
         <ImageView
-            android:id="@+id/idTVCondition"
+            android:id="@+id/idIVCondition"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_below="@id/idTVTemperature"
@@ -49,9 +49,12 @@
             android:id="@+id/idTVWindSpeed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVCondition"
+            android:layout_below="@id/idIVCondition"
             android:layout_centerHorizontal="true"
-            android:layout_margin="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
             android:gravity="center"
             android:padding="3dp"
             android:text="13"
